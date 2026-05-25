@@ -1,0 +1,56 @@
+from clients.api_client import APIClient
+from httpx import Response
+from typing import TypedDict
+
+class GetCoursesQueryDict(TypedDict):
+    """
+    Описание структуры запроса на получение списка курсов
+    """
+    userId: str
+
+class CreateCourseRequestDict(TypedDict):
+    """
+    Описание структуры запроса на создание курса
+    """
+    title: str
+    maxScore: int
+    minScore: int
+    description: str
+    estimatedTime: str
+    previewFileId: str
+    createdByUserId: str
+
+class UpdateCourseRequestDict(TypedDict):
+    """
+    Описание структуры запроса на обновление курса
+    """
+    title: str | None
+    maxScore: int | None
+    minScore: int | None
+    orderIndex: int | None
+    description: str | None
+    estimatedTime: str | None
+
+class CourseClient(APIClient):
+    """
+    Клиент для работы с /api/v1/courses
+    """
+    def get_courses_api(self, query:GetCoursesQueryDict) -> Response:
+        """
+        Метод получения списков курсов
+        :param query: Словарь с user_id
+        :return: Ответ от сервера в виде объекта httpx.Response
+        """
+        return self.get("/api/v1/courses", params=query)
+
+    def get_course_api(self, course_id: str) -> Response:
+        return self.get(f"/api/v1/courses/{course_id}")
+
+    def create_course_api(self, request: CreateCourseRequestDict) -> Response:
+        return self.post("/api/v1/courses", json=request)
+
+    def update_course_api(self, exercise_id: str, request: UpdateCourseRequestDict) -> Response:
+        return self.patch(f"/api/v1/courses/{exercise_id}", json=request)
+
+    def delete_course_api(self, exercise_id: str) -> Response:
+        return self.delete(f"/api/v1/courses/{exercise_id}")
