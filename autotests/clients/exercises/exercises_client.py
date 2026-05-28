@@ -1,15 +1,33 @@
-from apps.exercises.schema.exercises import Exercise
 from clients.api_client import APIClient
 from typing import TypedDict
 
 from clients.private_http_builder import AuthenticationUserDict, get_private_http_client
 from httpx import Response
 
+class Exercise(TypedDict):
+    id: str
+    title: str
+    courseId: str
+    maxScore: int
+    minScore: int
+    orderIndex: int
+    description: str
+    estimatedTime: str
+
+class GetExercisesResponseDict(TypedDict):
+    exercises: list[Exercise]
+
+class GetExerciseResponseDict(TypedDict):
+    exercise: Exercise
+
 class GetExercisesQueryDict(TypedDict):
     """
     Описание структуры запроса на получение списка упражнений
     """
     courseId : int
+
+class CreateExerciseResponseDict(TypedDict):
+    exercise: Exercise
 
 class CreateExerciseRequestDict(TypedDict):
     """
@@ -22,6 +40,11 @@ class CreateExerciseRequestDict(TypedDict):
     orderIndex: int
     description: str
     estimatedTime: str
+
+class UpdateExerciseResponseDict(TypedDict):
+    exercise: Exercise
+
+
 class UpdateExerciseRequestDict(TypedDict):
     """Описание структуры запроса на обновление упражнения"""
     title: str | None
@@ -82,5 +105,21 @@ class ExerciseClient(APIClient):
         """
         return self.delete(f"/api/v1/exercises/{exercise_id}")
 
-def get_private_users_client(user: AuthenticationUserDict) -> ExerciseClient:
+    def get_exercises(self, query: GetExercisesQueryDict) -> GetExercisesResponseDict:
+        response = self.get_exercises_api(query)
+        return response.json()
+
+    def get_exercise(self, query: GetExercisesQueryDict) -> GetExerciseResponseDict:
+        response = self.get_exercise_api(query)
+        return response.json()
+
+    def create_exercise(self, request: CreateExerciseRequestDict) -> CreateExerciseResponseDict:
+        response = self.create_exercise_api(request)
+        return response.json()
+
+    def update_exercise(self, exercise_id: str, request: UpdateExerciseRequestDict) -> UpdateExerciseResponseDict:
+        response = self.update_exercise_api(exercise_id, request)
+        return response.json()
+
+def get_exercise_client(user: AuthenticationUserDict) -> ExerciseClient:
     return ExerciseClient(client=get_private_http_client(user))
