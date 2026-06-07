@@ -4,10 +4,10 @@ from clients.files.files_client import get_files_client
 from clients.files.files_schema import CreateFileRequestSchema
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.public_users_client import get_public_users_client, CreateUserRequestSchema
-from faker import Faker
+from tools.faker import fake
 public_users_client = get_public_users_client()
 
-fake = Faker()
+
 create_user_request = CreateUserRequestSchema(
     email=str(fake.email()),
     password="string",

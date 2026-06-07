@@ -1,9 +1,9 @@
 import httpx
 
-from faker import Faker
+from tools.faker import fake
 
 # Создаем пользователя
-fake = Faker()
+
 create_user_payload = {
     "email": str(fake.email()),
     "password": "string",
