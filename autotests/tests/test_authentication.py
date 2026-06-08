@@ -19,6 +19,7 @@ def test_login():
     response_auth = auth_user_client.login_api(login_user)
     login_response_data = LoginResponseSchema.model_validate_json(response_auth.text)
 
+
     assert_status_code(response_auth.status_code, HTTPStatus.OK)
     assert_login_response(login_response_data)
     validate_json_schema(instance=response_auth.json(), schema=login_response_data.model_json_schema())
