@@ -1,5 +1,5 @@
 import pytest
-from clients.users.public_users_client import get_public_users_client, PublicUsersClient
+from clients.users.public_users_client import PublicUsersClient
 from clients.users.user_schema import CreateUserRequestSchema, CreateUserResponseSchema, GetUserResponseSchema
 from http import HTTPStatus
 
