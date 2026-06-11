@@ -1,6 +1,8 @@
+from clients.erorrs_schema import ValidationErrorSchema, ValidationErrorResponseSchema, InternalErrorResponseSchema
 from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema, FileSchema, \
     GetFileResponseSchema
 from tools.assertions.base import assert_equal
+from tools.assertions.errors import assert_validation_error_response, assert_internal_error_response
 
 
 def assert_create_file_response(request: CreateFileRequestSchema, response: CreateFileResponseSchema):
@@ -40,3 +42,44 @@ def assert_get_file_response(get_file_response: GetFileResponseSchema, create_fi
         :raises AssertionError: Если данные файла не совпадают.
     """
     assert_file(get_file_response.file, create_file_response.file)
+
+def assert_create_file_with_empty_filename_response(actual: ValidationErrorResponseSchema):
+    expected = ValidationErrorResponseSchema(
+        detail=[
+            ValidationErrorSchema(
+                type="missing",
+                input=None,
+                message="Field required",  # Сообщение об ошибке.
+                location=["body", "filename"]  # Ошибка возникает в теле запроса, поле "directory"
+
+            )
+        ]
+    )
+
+    assert_validation_error_response(actual, expected)
+
+def assert_create_file_with_empty_directory_response(actual: ValidationErrorResponseSchema):
+    expected = ValidationErrorResponseSchema(
+        detail=[
+            ValidationErrorSchema(
+                type="missing",
+                input=None,
+                #context={"min_length": 1},  # Минимальная длина строки должна быть 1 символ.
+                message="Field required",  # Сообщение об ошибке.
+                location=["body", "directory"]  # Ошибка возникает в теле запроса, поле "directory"
+
+            )
+        ]
+    )
+
+    assert_validation_error_response(actual, expected)
+
+def assert_file_not_found_response(actual: InternalErrorResponseSchema):
+    """
+        Функция для проверки ошибки, если файл не найден на сервере.
+
+        :param actual: Фактический ответ.
+        :raises AssertionError: Если фактический ответ не соответствует ошибке "File not found"
+    """
+    expected = InternalErrorResponseSchema(details="File not found")
+    assert_internal_error_response(actual, expected)
