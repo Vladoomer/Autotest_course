@@ -23,7 +23,8 @@ class GetExercisesQuerySchema(BaseModel):
     """
     Описание структуры запроса на получение списка упражнений
     """
-    courseId : int
+    model_config = ConfigDict(populate_by_name=True)
+    course_id : str = Field(alias="courseId")
 
 class CreateExerciseResponseSchema(BaseModel):
     exercise: ExerciseSchema
