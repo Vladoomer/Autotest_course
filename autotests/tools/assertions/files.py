@@ -83,3 +83,16 @@ def assert_file_not_found_response(actual: InternalErrorResponseSchema):
     """
     expected = InternalErrorResponseSchema(details="File not found")
     assert_internal_error_response(actual, expected)
+
+def assert_get_file_with_incorrect_file_id_response(actual: ValidationErrorResponseSchema):
+    expected = ValidationErrorResponseSchema(
+        details=[
+            ValidationErrorSchema(
+                type= 'uuid_parsing',
+                location=['path', 'file_id'],
+                message="Input should be a valid UUID, invalid character: found `i` at 1",
+                input="incorrect-file-id",
+                context={"error": "invalid character: found `i` at 1"}
+            )]
+    )
+    assert_validation_error_response(actual, expected)
