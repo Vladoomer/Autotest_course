@@ -1,5 +1,3 @@
-from typing import TypedDict
-from pydantic import BaseModel, EmailStr, Field
 from httpx import Response
 
 from clients.api_client import APIClient
