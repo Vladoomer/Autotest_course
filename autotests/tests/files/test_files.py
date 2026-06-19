@@ -23,11 +23,14 @@ from tools.assertions.schema import validate_json_schema
 @allure.tag(AllureTag.FILES, AllureTag.REGRESSION)
 @allure.epic(AllureEpic.LMS)
 @allure.feature(AllureFeature.FILES)
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeature.FILES)
 class TestFiles:
     @allure.story(AllureStory.CREATE_ENTITY)
     @allure.tag(AllureTag.CREATE_ENTITY)
     @allure.title("Create file")
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.CREATE_ENTITY)
     def test_create_file(self, files_client: FilesClient):
       request = CreateFileRequestSchema(upload_file="./testdata/files/image.png")
       response = files_client.create_file_api(request)
@@ -38,6 +41,7 @@ class TestFiles:
 
       validate_json_schema(instance=response.json(), schema=response_data.model_json_schema())
 
+    @allure.sub_suite(AllureStory.GET_ENTITIES)
     @allure.story(AllureStory.GET_ENTITIES)
     @allure.tag(AllureTag.GET_ENTITIES)
     @allure.title("Get file")
@@ -51,6 +55,7 @@ class TestFiles:
 
       validate_json_schema(response.json(), schema=response_data.model_json_schema())
 
+    @allure.sub_suite(AllureStory.VALIDATE_ENTITY)
     @allure.story(AllureStory.VALIDATE_ENTITY)
     @allure.tag(AllureTag.VALIDATE_ENTITY)
     @allure.title("Create file with empty filename")
@@ -71,6 +76,7 @@ class TestFiles:
       # Дополнительная проверка структуры JSON, чтобы убедиться, что схема валидационного ответа не изменилась
       validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.sub_suite(AllureStory.VALIDATE_ENTITY)
     @allure.story(AllureStory.VALIDATE_ENTITY)
     @allure.tag(AllureTag.VALIDATE_ENTITY)
     @allure.title("Create file with empty directory")
@@ -91,6 +97,7 @@ class TestFiles:
       # Дополнительная проверка структуры JSON, чтобы убедиться, что схема валидационного ответа не изменилась
       validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.sub_suite(AllureStory.DELETE_ENTITY)
     @allure.story(AllureStory.DELETE_ENTITY)
     @allure.tag(AllureTag.DELETE_ENTITY)
     @allure.title("Delete file")
@@ -107,6 +114,7 @@ class TestFiles:
 
       validate_json_schema(get_response.json(), get_response_data.model_json_schema())
 
+    @allure.sub_suite(AllureStory.VALIDATE_ENTITY)
     @allure.story(AllureStory.VALIDATE_ENTITY)
     @allure.tag(AllureTag.VALIDATE_ENTITY)
     @allure.title("Get file with incorrect file id")
