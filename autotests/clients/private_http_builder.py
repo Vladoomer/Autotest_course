@@ -1,4 +1,6 @@
 from typing import TypedDict
+
+from clients.event_hooks import curl_event_hook
 from pydantic import BaseModel
 from httpx import Client
 from functools import lru_cache
@@ -33,4 +35,5 @@ def get_private_http_client(user: AuthenticationUserSchema) -> Client:
         base_url="http://localhost:8000",
         # Добавляем заголовок авторизации
         headers={"Authorization": f"Bearer {login_response.token.access_token}"},
+        event_hooks={"request": [curl_event_hook]}
     )
