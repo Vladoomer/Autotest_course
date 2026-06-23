@@ -4,6 +4,7 @@ from clients.files.files_schema import CreateFileRequestSchema, CreateFileRespon
 from tools.assertions.base import assert_equal
 from tools.assertions.errors import assert_validation_error_response, assert_internal_error_response
 import allure
+from config import settings
 
 @allure.step("Check create file response")
 def assert_create_file_response(request: CreateFileRequestSchema, response: CreateFileResponseSchema):
@@ -15,7 +16,7 @@ def assert_create_file_response(request: CreateFileRequestSchema, response: Crea
 
     :raises AssertionError: если хотя бы одно поле не совпадает
     """
-    expected_url = f"http://localhost:8000/static/{request.directory}/{request.filename}"
+    expected_url = f"{settings.http_client.client_url}static/{request.directory}/{request.filename}"
     assert_equal(str(response.file.url), expected_url, "url")
     assert_equal(response.file.filename, request.filename, "filename")
     assert_equal(response.file.directory, request.directory,"directory")
@@ -35,7 +36,8 @@ def assert_file(actual: FileSchema, expected: FileSchema):
     assert_equal(actual.id, expected.id, "id")
 
 @allure.step("Check get file response")
-def assert_get_file_response(get_file_response: GetFileResponseSchema, create_file_response: CreateFileResponseSchema):
+def assert_get_file_response(
+        get_file_response: GetFileResponseSchema, create_file_response: CreateFileResponseSchema):
     """
         Проверяет, что ответ на получение файла соответствует ответу на его создание.
 
