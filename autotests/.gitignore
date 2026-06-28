@@ -1,2 +1,12 @@
-/venv
+#python
+venv
+__pycache__
+
 curlexm.py
+
+#pycharm
+.idea
+
+#allure
+/allure-results
+/allure-report
