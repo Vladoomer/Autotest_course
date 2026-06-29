@@ -70,6 +70,7 @@ jobs:
         uses: actions/download-artifact@v8
         with:
           name: allure-report
+          path: autotests/allure-results
 
       # 8. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
