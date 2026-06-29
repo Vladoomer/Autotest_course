@@ -60,11 +60,11 @@ def assert_create_file_with_empty_filename_response(actual: ValidationErrorRespo
     expected = ValidationErrorResponseSchema(
         detail=[
             ValidationErrorSchema(
-                type="missing",
-                input=None,
-                message="Field required",  # Сообщение об ошибке.
-                location=["body", "filename"]  # Ошибка возникает в теле запроса, поле "directory"
-
+                type="string_too_short",  # Тип ошибки, связанной с слишком короткой строкой.
+                input="",  # Пустое имя файла.
+                context={"min_length": 1},  # Минимальная длина строки должна быть 1 символ.
+                message="String should have at least 1 character",  # Сообщение об ошибке.
+                location=["body", "filename"]  # Ошибка возникает в теле запроса, поле "filename".
             )
         ]
     )
@@ -77,12 +77,11 @@ def assert_create_file_with_empty_directory_response(actual: ValidationErrorResp
     expected = ValidationErrorResponseSchema(
         detail=[
             ValidationErrorSchema(
-                type="missing",
-                input=None,
-                #context={"min_length": 1},  # Минимальная длина строки должна быть 1 символ.
-                message="Field required",  # Сообщение об ошибке.
-                location=["body", "directory"]  # Ошибка возникает в теле запроса, поле "directory"
-
+                type="string_too_short",  # Тип ошибки, связанной с слишком короткой строкой.
+                input="",  # Пустая директория.
+                context={"min_length": 1},  # Минимальная длина строки должна быть 1 символ.
+                message="String should have at least 1 character",  # Сообщение об ошибке.
+                location=["body", "directory"]  # Ошибка возникает в теле запроса, поле "directory".
             )
         ]
     )
