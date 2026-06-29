@@ -11,7 +11,7 @@ class ValidationErrorSchema(BaseModel):
 
     type: str
     input: Any
-    context: Optional[dict[str, Any]] = Field(None, alias="ctx")
+    context: dict[str, Any] = Field(alias="ctx")
     message: str = Field(alias="msg")
     location: list[str] = Field(alias="loc")
 
