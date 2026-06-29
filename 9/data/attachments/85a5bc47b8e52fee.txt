@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d6d79544-f491-4f82-9394-bb3dced3af87' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDExOjA3OjQwLjk1MDU0NiIsInVzZXJfaWQiOiI5NWM1NDg3OC01ZGI2LTQ5YzMtYTA4YS1iNjI0ZGUxZGM5ZDUifQ.PNub36Axj9y_LJGOYZgOlrP625dRTEtIZShWP28ZdtU' \
+  -H 'content-length: 237' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sport seat after set grow.\nEvening which sign seek item firm. Third let key ready. Third themselves conference machine.","maxScore":79,"minScore":25,"description":"Writer character current now join.","estimatedTime":"8 weeks"}'

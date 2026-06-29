@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDExOjA3OjQzLjYyNTkwOCIsInVzZXJfaWQiOiJkMzgxMGIyZi03ZmY4LTQ1NWUtYTUxMi04YmRiMWU3NDg2Y2QifQ.4FVzHVlfLAIOsvOhyRw9qVSzWH227vml31TZAODyzfw' \
+  -H 'content-length: 198' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Teacher under fly story.","courseId":"8735454d-64e5-4656-babb-84911e1da5fd","maxScore":65,"minScore":25,"orderIndex":60,"description":"Build language statement.","estimatedTime":"7 weeks"}'

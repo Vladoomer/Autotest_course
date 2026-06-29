@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDExOjA3OjQwLjk1MDU0NiIsInVzZXJfaWQiOiI5NWM1NDg3OC01ZGI2LTQ5YzMtYTA4YS1iNjI0ZGUxZGM5ZDUifQ.PNub36Axj9y_LJGOYZgOlrP625dRTEtIZShWP28ZdtU' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Involve eight thus term policy pay. Military name important sister model tell.\nStep individual young area Congress fact focus. Threat card international skill. Break television open land Mr marriage.","maxScore":87,"minScore":2,"description":"Million week maintain financial.","estimatedTime":"3 weeks","previewFileId":"3c177054-a438-41a7-83fe-3188688675ca","createdByUserId":"95c54878-5db6-49c3-a08a-b624de1dc9d5"}'

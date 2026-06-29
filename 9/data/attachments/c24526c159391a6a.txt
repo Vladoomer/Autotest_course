@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDExOjA3OjQyLjY5ODQ4MiIsInVzZXJfaWQiOiJlYWU1MWJkOS0zZjlhLTQyOTMtOTBhYS01NWM1OGY0NTJlNzAifQ.BFZ0faQf1QLmfJFW3x367hwyBZlhl69vH9lRHwWc3Xg' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quickly fact ahead western. Way growth suggest try let lot detail teacher.\nNext play nearly pass wait bit table. Walk power agreement office customer sure affect important.","maxScore":72,"minScore":8,"description":"Arrive daughter former billion next.","estimatedTime":"9 weeks","previewFileId":"8ea45c07-d210-4e56-81e2-41daa14a65fb","createdByUserId":"eae51bd9-3f9a-4293-90aa-55c58f452e70"}'
