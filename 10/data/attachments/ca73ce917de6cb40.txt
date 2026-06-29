@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDExOjMxOjQxLjU3OTE1MiIsInVzZXJfaWQiOiJmZDAwYzUxZC01MWEzLTQxNzYtOGJjOC0zZTYxNjdjODE5NzQifQ.d78W_mYvRz5u4Sv0S2o5HJMG25Od1syKOIaXbdhY738' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Else effect base. Him value Mrs bag mother.\nNote ask dark. Leave serious put whole.\nDescribe foreign science thus add laugh threat. Half practice me group measure.","maxScore":96,"minScore":22,"description":"Fight number let early security.","estimatedTime":"10 weeks","previewFileId":"36c61c36-ca25-4ed4-b6ba-83e496bdc32e","createdByUserId":"fd00c51d-51a3-4176-8bc8-3e6167c81974"}'

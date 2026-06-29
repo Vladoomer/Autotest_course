@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDExOjMxOjQzLjYwODE0OSIsInVzZXJfaWQiOiI1MjAxMDNiNy0zOWYxLTRkNjAtODBkYS1lNjk4ZGQwOTQ3NTIifQ.5LZcf1Fe7PUuxvSEnja4SPXPiSw9vfHj-pykNLhsYXo' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Together avoid enough arm impact. Try use book woman technology require.\nFirm money task decide. Stand important food particularly clear.","maxScore":70,"minScore":9,"description":"Someone week glass defense thus.","estimatedTime":"1 weeks","previewFileId":"1d96fde7-ac66-4105-a77c-91a7f5edc4d3","createdByUserId":"520103b7-39f1-4d60-80da-e698dd094752"}'

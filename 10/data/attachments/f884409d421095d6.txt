@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDExOjMxOjQyLjQ2NjYzNSIsInVzZXJfaWQiOiJlOThjYmY2NC0wMzJhLTQyNzAtOGIzYS1kZWQ4MWRmZDc0MmQifQ.rC0ykubugBnjAbHCBVIWlYGF1Npxy4voLASlGKn4i9c' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"High produce score upon job thousand. Land identify audience out take interest manager.\nFly reduce pressure argue begin rule team probably. Necessary at while number. Various quite bill.","maxScore":67,"minScore":13,"description":"Above first far human example trade state.","estimatedTime":"6 weeks","previewFileId":"0aacbb81-7273-4f2c-b9db-2399c947bf3b","createdByUserId":"e98cbf64-032a-4270-8b3a-ded81dfd742d"}'

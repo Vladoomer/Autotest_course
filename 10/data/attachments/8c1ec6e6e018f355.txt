@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDExOjMxOjQyLjcyNTY2MyIsInVzZXJfaWQiOiI5ZTM0YTE0YS0wM2FjLTQxY2EtOWJjMS1mYzkyZTYzYzk4NTUifQ.YYr9o3R3faUjRWVUEQvRIEQcKizMOWLE5uRPadEOBBg' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Across perform game money. Nothing member will executive population everyone late. Worry ready age former change president.\nSpeak newspaper artist. Nature really above Congress traditional.","maxScore":63,"minScore":12,"description":"Public cell room evidence difficult red.","estimatedTime":"7 weeks","previewFileId":"d50ad687-004c-4f47-936a-d9f26ae1bd7f","createdByUserId":"9e34a14a-03ac-41ca-9bc1-fc92e63c9855"}'
