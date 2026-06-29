@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/12e4bf7f-825f-4792-85c9-2f8b5152f4db' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDA5OjU1OjIyLjgwMTIzMiIsInVzZXJfaWQiOiI2NWVjODM5MS1iNTg1LTQzNTEtYWU1My1kZmU5MzU5NGY4MDEifQ.1sv8_Oh43XEp_3GSKm74Rtd_6XFqvpzV01Qg5ZpQXVc' \
+  -H 'content-length: 219' \
+  -H 'content-type: application/json' \
+  -d '{"title":"East interest amount dinner fight somebody election responsibility. None serious tonight president north.","maxScore":67,"minScore":8,"description":"Similar play rather begin close.","estimatedTime":"1 weeks"}'

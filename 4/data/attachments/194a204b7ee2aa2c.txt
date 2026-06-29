@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDA5OjU1OjI2LjU3ODE2MyIsInVzZXJfaWQiOiIyODA0ZDU5ZS0zMWJhLTQ0ZWUtODBhNy1lODUwODk2NjUzODcifQ.me-B1rcwYu98OoRB705C7Sk8u_ZvLbeKcSwLmOqdrsE' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Me media message interview. Individual then can law my know. Culture family customer blood approach behavior research.","maxScore":79,"minScore":2,"description":"Level cause attention model which something under.","estimatedTime":"8 weeks","previewFileId":"6e094511-da19-4990-acff-771acb63f353","createdByUserId":"2804d59e-31ba-44ee-80a7-e85089665387"}'
