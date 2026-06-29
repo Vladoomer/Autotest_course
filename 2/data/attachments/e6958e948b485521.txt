@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDA5OjQzOjA4Ljg3MjM4OSIsInVzZXJfaWQiOiI3MTJmNTczZC1kNTU1LTQ2Y2QtOGFhNy1hMWZiNmM4N2IyODYifQ.vwqrpwDaOdAGw89w8Y1qozEgLpzaVGW0mf_zkdgWDXg' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Threat we purpose everything call raise financial across.\nAlready other feel war close already. Watch place identify. Run station chair knowledge.","maxScore":63,"minScore":9,"description":"As each out success great cultural.","estimatedTime":"4 weeks","previewFileId":"c80c309c-3869-477d-b0dc-3dbf8ea17972","createdByUserId":"712f573d-d555-46cd-8aa7-a1fb6c87b286"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDA5OjQzOjA4LjU2MjA4NCIsInVzZXJfaWQiOiI2Y2JiNTcwZC00ZTI5LTQxZjItOGY1My04OGYyMmYwYzNlY2QifQ.5TYkYg6H3dM2pver9JFGOWR1BSquq0iKBaCNv4_3Z9w' \
+  -H 'content-length: 213' \
+  -H 'content-type: application/json' \
+  -d '{"title":"She especially no fund stay make.","courseId":"15448655-5bbf-4990-b474-914d8b93333d","maxScore":58,"minScore":27,"orderIndex":29,"description":"They alone address old feeling.","estimatedTime":"9 weeks"}'

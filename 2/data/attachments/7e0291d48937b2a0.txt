@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:25 Make GET request to http://localhost:8000/api/v1/courses?userId=90fb430b-a1f4-4975-bb27-4410f2752059
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=90fb430b-a1f4-4975-bb27-4410f2752059
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:base.py:70 Check that length of "courses" equals to "1"
+INFO     COURSES_ASSERTIONS:courses.py:52 Check get courses response
+INFO     COURSES_ASSERTIONS:courses.py:36 Check course
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equals to "Per fast defense stay. Because agent reflect stay.
+Should they idea computer training white others. Cell pressure southern onto community add back. Ten candidate wish product."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "id" equals to "aa6d42bd-1689-43c4-bf51-ee2f26f73081"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "max_score" equals to "79"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "min_score" equals to "8"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimated_time" equals to "3 weeks"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equals to "List second suddenly budget purpose office."
+INFO     FILE_ASSERTIONS:files.py:37 Check file
+INFO     BASE_ASSERTIONS:base.py:33 Check that "url" equals to "http://localhost:8000/static/courses/d32b7644-4a65-4021-b92f-caadba7cc8a9.png"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "filename" equals to "d32b7644-4a65-4021-b92f-caadba7cc8a9.png"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "directory" equals to "courses"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "id" equals to "f91d8463-2cab-444c-8cbf-872f3bf2f341"
+INFO     USERS_ASSERTIONS:users.py:26 Check user
+INFO     BASE_ASSERTIONS:base.py:33 Check that "id" equals to "90fb430b-a1f4-4975-bb27-4410f2752059"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "email" equals to "christopher08@example.com"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "last_name" equals to "Young"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "first_name" equals to "Lisa"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "middle_name" equals to "Sarah"
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validate JSON schema

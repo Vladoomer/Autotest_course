@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDA5OjQzOjA3LjE3NjA2MyIsInVzZXJfaWQiOiIxNGE5NDdmNi05NGRlLTQ5ZmYtYjI5YS01NmU2MTI2NDBhYWEifQ.vCXBadOZgYEh11rI-wuoSP96zztLVU0pfv2JB0EqkKk' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sure concern have year base manage. Form reflect whose similar water born difference.\nThousand trouble type let be. By stock best positive. Recently challenge some bad audience natural.","maxScore":55,"minScore":20,"description":"Hard good several paper.","estimatedTime":"9 weeks","previewFileId":"c97f3d36-6925-4dd1-b11e-0c104bba801c","createdByUserId":"14a947f6-94de-49ff-b29a-56e612640aaa"}'

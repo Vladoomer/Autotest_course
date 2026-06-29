@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDA5OjQzOjA5Ljk2MTUxOCIsInVzZXJfaWQiOiI1M2EyOGI0MC1mNDFiLTQ3YzItYTdiNS03ZTdiYWYxYzE0ZGQifQ.A4vk1NkJ0ZdY_IflZi_0oF3VGeuQ5-Mf78V5a2_o1_c' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Most agent heavy wind focus she. Establish ever none station station rise right. Movie behind explain radio.\nStructure something response.","maxScore":87,"minScore":20,"description":"War heavy onto three especially.","estimatedTime":"9 weeks","previewFileId":"cd8b5914-09f1-406f-85e1-eea3d9b7138f","createdByUserId":"53a28b40-f41b-47c2-a7b5-7e7baf1c14dd"}'
