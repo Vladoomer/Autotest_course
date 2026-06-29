@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDEwOjA3OjEwLjkxNDY0MiIsInVzZXJfaWQiOiIyOWU3OWZjOC01MGVmLTRiYjktYTlmOS1lYTdiNTRlOWQ5N2QifQ.jDYH7nTn_EH_Yi7E6S1cZXqp3YFfYbWK4GCrHdkX6L0' \
+  -H 'content-length: 286' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Under knowledge kitchen couple. Value local receive choice.","maxScore":93,"minScore":8,"description":"Wall run environment cut improve.","estimatedTime":"2 weeks","previewFileId":"5c52bbd0-caf7-48cd-8b53-33d3250c2c32","createdByUserId":"29e79fc8-50ef-4bb9-a9f9-ea7b54e9d97d"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDEwOjA3OjA5LjYwODU4MiIsInVzZXJfaWQiOiI1NzYwOWYxNi0zYWQ0LTRhZWQtYWZlYi1hNDY2N2I3MzllMWYifQ.dQxKGRV_10VvhwOVfgVKtHQDCXqVm6TPjKVXudkykTs' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"List newspaper age care. Trade other former kid once reality. Loss item first toward value.\nPast follow main cover. Number director spring program everybody young box half.","maxScore":69,"minScore":1,"description":"Future lose after hit conference professional field.","estimatedTime":"10 weeks","previewFileId":"aafc0f32-abdd-43c8-b997-1fe8bfec0d2c","createdByUserId":"57609f16-3ad4-4aed-afeb-a4667b739e1f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDEwOjA3OjEyLjIwMDM2MSIsInVzZXJfaWQiOiI4M2NiYjBhOC1mN2ZjLTQ4ZWUtYjdjMS0wMDViZGRjZDU5ODMifQ.8E9F8ejeHew4-S6Hz1rfzVFI089fJ4EKNucAA-ou9e8' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Easy professor three operation nearly another answer. History rich enough believe increase kind rise respond. Discuss place why teacher like.","maxScore":75,"minScore":9,"description":"Like approach yourself performance music.","estimatedTime":"10 weeks","previewFileId":"46e07875-4dbc-4a21-a7ec-a6941ad310dc","createdByUserId":"83cbb0a8-f7fc-48ee-b7c1-005bddcd5983"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDEwOjA3OjEzLjQ5MzgyNyIsInVzZXJfaWQiOiIzMDRkOThiYi00ZjI5LTQ2YzAtYTFiNC0zMTg4NDk1MjY1ZTkifQ._YL5jwlL6qA2MwdjR_12f3Q16TymdqkYMDmbzugrAoY' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Enough good song live although. Main mean action face claim. Garden today leg should foot fast.\nPartner none instead. Certain along believe later Mr build moment.","maxScore":77,"minScore":20,"description":"Institution suddenly deep movement professor.","estimatedTime":"9 weeks","previewFileId":"8275b28d-2644-450a-b5ab-80b9881428ba","createdByUserId":"304d98bb-4f29-46c0-a1b4-3188495265e9"}'

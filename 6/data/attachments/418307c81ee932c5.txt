@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDEwOjA3OjEwLjMwNDI1MSIsInVzZXJfaWQiOiI5MGY3OGViMi0wNTk1LTQ1MjUtYmEzMi01YTI1NjQxNDViN2QifQ.0J7H6_Y5FI3qi3cmZO14q8ualWlGEAY1ek1WSHEYd2Q' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Else note beat toward. Us do per position. Eye cut half open hair service organization.","maxScore":84,"minScore":10,"description":"Generation amount or enough firm commercial.","estimatedTime":"5 weeks","previewFileId":"db567aa5-2009-43d2-8417-05977f95f3c8","createdByUserId":"90f78eb2-0595-4525-ba32-5a2564145b7d"}'

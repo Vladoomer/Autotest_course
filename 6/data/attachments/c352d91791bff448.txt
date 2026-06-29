@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9f81957a-c89b-4fda-ae2b-ed36ee424025' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDEwOjA3OjA5LjYwODU4MiIsInVzZXJfaWQiOiI1NzYwOWYxNi0zYWQ0LTRhZWQtYWZlYi1hNDY2N2I3MzllMWYifQ.dQxKGRV_10VvhwOVfgVKtHQDCXqVm6TPjKVXudkykTs' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Low this culture wonder send. But both window establish.\nRun beat should available. Establish property party exactly case story final. Speak the similar. Create catch down defense only glass man.","maxScore":80,"minScore":23,"description":"Minute including describe friend analysis.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDEwOjA3OjEyLjgwNTY1MCIsInVzZXJfaWQiOiIyYTdjMDA4ZC0wYWY1LTRlMjMtYWE4Yi01ZmFjY2E5ZjNkMTcifQ.XkJsMiIYVrEDSEgmbZ29Jo1kH_ilzaEuTFmPhh8ZJfo' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sometimes expert main. Fire five yourself authority available job pull eat. Short since report fine feel modern eye.\nStrategy police feel have town name. Seven response special animal end.","maxScore":96,"minScore":25,"description":"Place rest because main.","estimatedTime":"1 weeks","previewFileId":"0ab6a894-c899-4b18-b179-d74fa06d500a","createdByUserId":"2a7c008d-0af5-4e23-aa8b-5facca9f3d17"}'
