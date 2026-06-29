@@ -1,0 +1,21 @@
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:25 Make PATCH request to http://localhost:8000/api/v1/exercises/ee73baff-60a7-4083-ac52-9d678c07464c
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises/ee73baff-60a7-4083-ac52-9d678c07464c
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:78 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equals to "Crime into indicate."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "orderIndex" equals to "3"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "maxScore" equals to "98"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "minScore" equals to "15"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equals to "Serious catch energy act strong month allow."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimatedTime" equals to "10 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validate JSON schema

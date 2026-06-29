@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDA5OjUxOjUxLjI1ODM2MyIsInVzZXJfaWQiOiIwYzlmOTBlOS00MDU3LTQzODItYjViNC1iNTcyNTQzZWM2NDIifQ.Sc92N0dzkxOKuMXyVcnIxSpaehp1PqUesDruboz5Woc' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Step collection require also great notice. Upon skill close base. Learn then strong million different.\nHerself them determine between take. Line maintain support opportunity of mention.","maxScore":88,"minScore":20,"description":"Degree sometimes professor ask production the.","estimatedTime":"8 weeks","previewFileId":"1d84ce24-fb6b-4f49-8dc1-c08664d34784","createdByUserId":"0c9f90e9-4057-4382-b5b4-b572543ec642"}'

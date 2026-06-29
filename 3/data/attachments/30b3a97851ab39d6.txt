@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDA5OjUxOjUzLjk2MDg3NyIsInVzZXJfaWQiOiIwOGQyMTU0Ny0yYTdhLTQwOTYtODA2MC05MDNlMjY3ZjYwYWEifQ.iDtt4KKudaKwwB8nZCo-gLJbi9dRnIjvt66MPJQ-dl4' \
+  -H 'content-length: 199' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Child actually quite kind foot.","courseId":"7011d758-1dbb-46d6-bfc6-da1051b208e0","maxScore":54,"minScore":21,"orderIndex":5,"description":"Tree finally almost.","estimatedTime":"8 weeks"}'

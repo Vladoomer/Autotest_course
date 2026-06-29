@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDA5OjUxOjU2LjIwNTM1OSIsInVzZXJfaWQiOiJjZWY5NTNjOC1mNTc3LTQyNGQtYTI5Yi03YTNlNWEzOWNlMzcifQ._fFX_DK58SUy8PEGI5ZYLaM7hEia3PMYn-Q2dlNEbNM' \
+  -H 'content-length: 234' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hundred suggest listen list million either.","courseId":"0259599f-a36d-419c-a1ea-f3ca3b877548","maxScore":52,"minScore":29,"orderIndex":77,"description":"Poor tell high worker Democrat heavy case.","estimatedTime":"8 weeks"}'
