@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:25 Make GET request to http://localhost:8000/api/v1/courses?userId=a0f3d2b9-376c-4175-b33c-9573341a07d6
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=a0f3d2b9-376c-4175-b33c-9573341a07d6
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:base.py:70 Check that length of "courses" equals to "1"
+INFO     COURSES_ASSERTIONS:courses.py:52 Check get courses response
+INFO     COURSES_ASSERTIONS:courses.py:36 Check course
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equals to "Often rich artist. Myself she field record style sort a. Join message car.
+Crime majority none happy section remember other stay."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "id" equals to "070698e1-0d66-4956-aba0-6719cc324287"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "max_score" equals to "51"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "min_score" equals to "18"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimated_time" equals to "4 weeks"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equals to "Black inside even indeed stuff beyond ready."
+INFO     FILE_ASSERTIONS:files.py:37 Check file
+INFO     BASE_ASSERTIONS:base.py:33 Check that "url" equals to "http://localhost:8000/static/courses/428bd5c6-88ef-4b9c-82c6-5bc5f50a7661.png"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "filename" equals to "428bd5c6-88ef-4b9c-82c6-5bc5f50a7661.png"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "directory" equals to "courses"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "id" equals to "13e85c05-34ad-4cdc-b0e2-8fac538af748"
+INFO     USERS_ASSERTIONS:users.py:26 Check user
+INFO     BASE_ASSERTIONS:base.py:33 Check that "id" equals to "a0f3d2b9-376c-4175-b33c-9573341a07d6"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "email" equals to "sheilaadams@example.org"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "last_name" equals to "Ramos"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "first_name" equals to "Robert"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "middle_name" equals to "Antonio"
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validate JSON schema

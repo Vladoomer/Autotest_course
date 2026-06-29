@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/4e396b46-f5b3-4156-a6bd-d6503f39ce4a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDEwOjA0OjIyLjAxOTE5NyIsInVzZXJfaWQiOiJhMDczMDViYi04YjFkLTRkYmMtOGI2YS04MTlmZmI3NWQ2OGUifQ.Lw7xA9kQxCu0TF8zfCPZ1GscRWwrXl8FHSTxTKb1U3g' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Success service pick name. Audience everyone decade inside in continue.\nAnimal tree hour still leader. Nor participant probably film forward hard themselves our. Result do our far.","maxScore":97,"minScore":15,"description":"Group line send field away in candidate.","estimatedTime":"9 weeks"}'

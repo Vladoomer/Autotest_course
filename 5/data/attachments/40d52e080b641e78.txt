@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDEwOjA0OjI0LjgxNTE3OCIsInVzZXJfaWQiOiI3N2RmYzA4OC04NjdiLTQyYTktOTdhOC1mNGZjODQwNmIwMmYifQ.JW3pCy0C8HBw50D6oZxuYMPzb2mm9zvr3_OiFDU7c1w' \
+  -H 'content-length: 222' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Key available across line plant American.","courseId":"48acd00a-d158-49b8-b678-22a7f4f786f0","maxScore":84,"minScore":16,"orderIndex":37,"description":"Parent American senior she room.","estimatedTime":"7 weeks"}'

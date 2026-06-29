@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:25 Make PATCH request to http://localhost:8000/api/v1/courses/4e396b46-f5b3-4156-a6bd-d6503f39ce4a
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses/4e396b46-f5b3-4156-a6bd-d6503f39ce4a
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:20 Check update course response
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equals to "Success service pick name. Audience everyone decade inside in continue.
+Animal tree hour still leader. Nor participant probably film forward hard themselves our. Result do our far."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equals to "Group line send field away in candidate."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "max_score" equals to "97"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "min_score" equals to "15"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimated_time" equals to "9 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validate JSON schema

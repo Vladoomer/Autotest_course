@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDEwOjA0OjIzLjU1MjEyMCIsInVzZXJfaWQiOiIwZmFhNzJiZi1iMWMwLTRjOTAtOTViOC1iODQyMTkwMDQxY2MifQ.NmNq4wJvLJK61BxLIEb4z6ziOdupq2oBr6S5ZPomXb4' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Big news anything. Now lawyer less above top remain.\nHigh real medical page data try. Why worry somebody wish staff. Wait huge establish. Or late allow letter appear authority out friend.","maxScore":66,"minScore":6,"description":"Image him theory expert near issue there mention.","estimatedTime":"8 weeks","previewFileId":"7093255f-c370-4548-94c3-c3c7693113aa","createdByUserId":"0faa72bf-b1c0-4c90-95b8-b842190041cc"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDEwOjA0OjI0LjUzNTg1MCIsInVzZXJfaWQiOiI5YjBkZTI4Ni03YmNlLTQ4NTEtYWIwYi02MDI5OTQ2OTRmNjYifQ.LHM_jKHNl7ZvTi1Q5kqyI_ltDX7v39boaYTFaHVlWu8' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Would station since city plan fish involve. Fly Democrat suddenly officer. Husband often us important force tonight message role.","maxScore":71,"minScore":13,"description":"Education sound public make player Mrs.","estimatedTime":"1 weeks","previewFileId":"2d3ec097-ad08-4aa3-a3e4-44b4886df4e0","createdByUserId":"9b0de286-7bce-4851-ab0b-602994694f66"}'

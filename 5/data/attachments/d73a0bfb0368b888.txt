@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDEwOjA0OjI1LjgwNTgzOSIsInVzZXJfaWQiOiJlNGU3MTAyOC0zMzhhLTQyMTMtOGYyMy02NzI4Zjk4NDNiMTYifQ.Xt5Yyx8ygcSXCcALnBJjKeV2kmaByC6-BEn8vcYPBpI' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Five seven keep specific expect scene effort.\nAct force young instead hot. House nearly interest policy among. Child eye it toward than discover success simple.","maxScore":54,"minScore":1,"description":"Central watch resource then.","estimatedTime":"6 weeks","previewFileId":"c8e36144-6726-405c-852c-73b9f02d53c2","createdByUserId":"e4e71028-338a-4213-8f23-6728f9843b16"}'

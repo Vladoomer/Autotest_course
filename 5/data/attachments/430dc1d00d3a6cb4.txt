@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDEwOjA0OjIyLjI5ODgyNSIsInVzZXJfaWQiOiIwMzlkZmIxMi02ZDgwLTQyMjgtYWYyNC02N2Y1ZTdmYTIxZDMifQ.B2o3EiLImuiodR9kMlKSr5aYqjKha8XdmAbkbM0XLsE' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Road begin government commercial level. Pretty class traditional well gun. Professor local service trouble story serve president.","maxScore":87,"minScore":12,"description":"Cold window other eye boy group special.","estimatedTime":"6 weeks","previewFileId":"78b5d2a9-a306-4c68-a5ce-9de3e0085065","createdByUserId":"039dfb12-6d80-4228-af24-67f5e7fa21d3"}'

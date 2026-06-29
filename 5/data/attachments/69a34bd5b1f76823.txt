@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDEwOjA0OjI0LjgxNTE3OCIsInVzZXJfaWQiOiI3N2RmYzA4OC04NjdiLTQyYTktOTdhOC1mNGZjODQwNmIwMmYifQ.JW3pCy0C8HBw50D6oZxuYMPzb2mm9zvr3_OiFDU7c1w' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Night time forget dream picture then. Worker cold history offer style whose task mouth.\nYeah account where performance.","maxScore":59,"minScore":20,"description":"Edge majority skill.","estimatedTime":"6 weeks","previewFileId":"a3b612bf-834a-470b-b9e0-bad8703384a5","createdByUserId":"77dfc088-867b-42a9-97a8-f4fc8406b02f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDEwOjA0OjIyLjAxOTE5NyIsInVzZXJfaWQiOiJhMDczMDViYi04YjFkLTRkYmMtOGI2YS04MTlmZmI3NWQ2OGUifQ.Lw7xA9kQxCu0TF8zfCPZ1GscRWwrXl8FHSTxTKb1U3g' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Carry ability large kid. In consumer into very available.\nWe usually public evening. Practice economic none. Hair design what newspaper.","maxScore":74,"minScore":10,"description":"Civil enough memory reflect really mission discussion.","estimatedTime":"9 weeks","previewFileId":"139727aa-628f-421e-8da7-5b39f9f0c591","createdByUserId":"a07305bb-8b1d-4dbc-8b6a-819ffb75d68e"}'
