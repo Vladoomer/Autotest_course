@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a20ac98a-0b22-4cb1-a04a-d63fdc7af194' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDExOjM2OjU0LjU5ODI0NiIsInVzZXJfaWQiOiI0ZmE4NWI0MC04ODZmLTQxYWMtYWVjZS04NGFjOGNmYTQ4N2IifQ.wnzDjXY56vJ7TlgGZ3-hy8FlvToIHhp_VgvsD6LScLE' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Usually law sense operation there. Add power not few report. Each one can mean pretty return.\nOccur hit condition my. See out any down cell.\nPaper little involve various help notice. Season half end.","maxScore":72,"minScore":16,"description":"To staff seem official either study agency.","estimatedTime":"7 weeks"}'

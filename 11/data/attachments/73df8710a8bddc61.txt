@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDExOjM2OjU3LjEwNzI1NSIsInVzZXJfaWQiOiIwMDBhNzQxOC0wZWFjLTRmYWUtOTY5Yy1jNGZiODc1OWM3NWQifQ.mTJiVaVLhW0rU97v1ktknUKWa7lrr-4j99H-anmYWEk' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Produce drive old remember quickly. Positive special try think student stop economic race. Summer institution time wrong need western positive.","maxScore":76,"minScore":5,"description":"Yes water question soldier.","estimatedTime":"1 weeks","previewFileId":"17f8d8fd-b70a-4f59-9ba2-0bbba356d001","createdByUserId":"000a7418-0eac-4fae-969c-c4fb8759c75d"}'

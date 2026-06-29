@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDExOjM2OjU1LjEwNzE5NSIsInVzZXJfaWQiOiJlMTkwYjNmNS1mMmUyLTQwMmUtOTY0OS03ZjdkYWU3YzljMzYifQ.VO959bu3ccYm9rBzeIFvWnyhomq6SQVnXkIBEc8Wcjw' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Especially somebody again discuss black not. Language case forward woman three choose accept.\nInto produce friend edge carry. Them of sound bank know tell. Trouble claim be head weight by.","maxScore":87,"minScore":26,"description":"Forget rise test prevent want.","estimatedTime":"9 weeks","previewFileId":"a1e07752-1c72-465d-b58a-f2131143e609","createdByUserId":"e190b3f5-f2e2-402e-9649-7f7dae7c9c36"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDExOjM2OjU4LjI4MTA3NCIsInVzZXJfaWQiOiJmNjM1YjRmMy0yZjBhLTRjOTEtYjcxOS1iOGM5NGYzYjAwNGYifQ.gP4iOplMJBRbKOFSTaGO5qTNOC2gS9MYAYfJPEqGR5s' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Media certainly on long court sister cut. Beyond decide probably operation since discover. Price real address top program everybody method.","maxScore":83,"minScore":27,"description":"Threat organization design usually.","estimatedTime":"3 weeks","previewFileId":"f5178992-f170-4f1c-86ec-ab17f8ace5e6","createdByUserId":"f635b4f3-2f0a-4c91-b719-b8c94f3b004f"}'

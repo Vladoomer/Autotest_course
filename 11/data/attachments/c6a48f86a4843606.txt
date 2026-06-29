@@ -1,0 +1,32 @@
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:25 Make GET request to http://localhost:8000/api/v1/courses?userId=4b2de3b3-d273-4136-a9c5-5d215eec7dfb
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=4b2de3b3-d273-4136-a9c5-5d215eec7dfb
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:base.py:70 Check that length of "courses" equals to "1"
+INFO     COURSES_ASSERTIONS:courses.py:52 Check get courses response
+INFO     COURSES_ASSERTIONS:courses.py:36 Check course
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equals to "Arm must edge describe matter nor structure. True half her high type want. Present condition save door class behind me identify."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "id" equals to "e298631e-7dea-4e0c-81f3-320168c546bd"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "max_score" equals to "64"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "min_score" equals to "19"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimated_time" equals to "1 weeks"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equals to "Wear leave two debate issue."
+INFO     FILE_ASSERTIONS:files.py:37 Check file
+INFO     BASE_ASSERTIONS:base.py:33 Check that "url" equals to "http://localhost:8000/static/courses/893a6d5c-a7da-43e5-a4ed-44c830891c11.png"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "filename" equals to "893a6d5c-a7da-43e5-a4ed-44c830891c11.png"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "directory" equals to "courses"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "id" equals to "468233da-43ff-4a30-846c-af3425325f1e"
+INFO     USERS_ASSERTIONS:users.py:26 Check user
+INFO     BASE_ASSERTIONS:base.py:33 Check that "id" equals to "4b2de3b3-d273-4136-a9c5-5d215eec7dfb"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "email" equals to "karen07@example.com"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "last_name" equals to "Goodwin"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "first_name" equals to "Elizabeth"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "middle_name" equals to "Julie"
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validate JSON schema

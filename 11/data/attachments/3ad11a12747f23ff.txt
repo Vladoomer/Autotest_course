@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDExOjM2OjU1Ljg5MDAzNCIsInVzZXJfaWQiOiI0ZTIxYjM1Ni03MGU2LTQ4NTItYjk2NS1mNzQ4YWNmNTg4YmMifQ.zXJyIIjgVBIl8WXiWDi7tr0X9J7OJxOsQ77FYebs_Zk' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fly follow amount team. Particular face bill author occur price cultural.\nConcern behind detail company end best.\nSituation career seek keep color measure week. Area drop time court son.","maxScore":54,"minScore":6,"description":"About himself movie customer.","estimatedTime":"5 weeks","previewFileId":"08b30a09-2b7b-4d6b-8feb-cdf47a036166","createdByUserId":"4e21b356-70e6-4852-b965-f748acf588bc"}'

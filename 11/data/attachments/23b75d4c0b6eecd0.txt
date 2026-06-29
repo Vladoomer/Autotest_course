@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:66 Check create course response
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equals to "Especially somebody again discuss black not. Language case forward woman three choose accept.
+Into produce friend edge carry. Them of sound bank know tell. Trouble claim be head weight by."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equals to "Forget rise test prevent want."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "max_score" equals to "87"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "min_score" equals to "26"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimated_time" equals to "9 weeks"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "preview_file_id" equals to "a1e07752-1c72-465d-b58a-f2131143e609"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "created_by_user_id" equals to "e190b3f5-f2e2-402e-9649-7f7dae7c9c36"
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validate JSON schema

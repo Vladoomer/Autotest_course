@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDExOjM2OjUzLjcxOTY4NCIsInVzZXJfaWQiOiI0YjJkZTNiMy1kMjczLTQxMzYtYTljNS01ZDIxNWVlYzdkZmIifQ.bA3SH2JOkWGWrs8I2qsVafc-zI8Yeq929vPUjON2uvw' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Arm must edge describe matter nor structure. True half her high type want. Present condition save door class behind me identify.","maxScore":64,"minScore":19,"description":"Wear leave two debate issue.","estimatedTime":"1 weeks","previewFileId":"468233da-43ff-4a30-846c-af3425325f1e","createdByUserId":"4b2de3b3-d273-4136-a9c5-5d215eec7dfb"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDExOjM2OjU2LjEyODgyNSIsInVzZXJfaWQiOiJjZjE5OTE5ZS01ZWRiLTQ5YWItYWNiYi1lNDlkNjM2OWE4MzMifQ.fnJhYQBic2KVc2y6yzKC5enYdxTAyVVN8ncjvk0ElIs' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agency care show network should for prevent. Respond long big concern. Father claim better impact defense support.\nThis take decision radio. Common decision wish page service.","maxScore":50,"minScore":10,"description":"Owner meeting picture system address real.","estimatedTime":"9 weeks","previewFileId":"9bd0b345-cc23-4d06-bfd1-a04d2866d61d","createdByUserId":"cf19919e-5edb-49ab-acbb-e49d6369a833"}'
