@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDExOjI4OjAxLjA3MzMxOCIsInVzZXJfaWQiOiJjMDdhOTg1Ni02NzZhLTQyMmMtYjk2Ny1jZDVkYjU1OGM3NjIifQ.rzyZLhqnrhFTLKn4igLeKTXl_FqhvvgdUigOJKuqprU' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"I interview house several. West stay industry sense need human buy religious.\nPhysical perhaps last class also color.","maxScore":64,"minScore":11,"description":"Play style second together.","estimatedTime":"9 weeks","previewFileId":"e8af0c6e-a4e5-4d21-a0cd-3a7598a95e26","createdByUserId":"c07a9856-676a-422c-b967-cd5db558c762"}'

@@ -1,0 +1,22 @@
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:20 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:33 Check that "courseId" equals to "ff2409bb-8736-48b8-9331-8af8a3600825"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equals to "House set election imagine economy lose."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "orderIndex" equals to "78"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "max_score" equals to "67"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "min_score" equals to "6"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equals to "Forget rich part capital need cause enter."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimated_time" equals to "10 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validate JSON schema

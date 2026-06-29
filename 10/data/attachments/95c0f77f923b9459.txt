@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDExOjI4OjAwLjc5OTg5MyIsInVzZXJfaWQiOiJmOWE0MzYyMi0xMjFhLTRkNDMtYWQxMS0xMTM3YTllNzZmMjkifQ.0_VbZyNlZER3A7Cp_FPbQmQjKtlkozqPHaCoifQD4Fg' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particular kid skill. Enter five as its behavior. That already degree money someone.\nRelationship be wrong.","maxScore":87,"minScore":5,"description":"Your increase include job movie describe mission.","estimatedTime":"1 weeks","previewFileId":"f1dfc6be-17dd-44f6-ad52-d123fabb0d6a","createdByUserId":"f9a43622-121a-4d43-ad11-1137a9e76f29"}'

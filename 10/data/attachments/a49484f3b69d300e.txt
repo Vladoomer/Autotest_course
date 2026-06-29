@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDExOjI4OjAzLjE5ODAxMiIsInVzZXJfaWQiOiJhOTMzNGYzNS0xZTYxLTQxMjItOTI4Yi02MDVhNWZiMWU1NmEifQ.qRPZkpWosO-N4pr3UhVojF0dWc9U0IBnK3FumzsXq-0' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Force sister hospital serve. Fast attention form pick. Continue never question fly bank. Individual set social girl name international.\nPay just easy. Section particular enough boy loss stand ago.","maxScore":60,"minScore":12,"description":"Million leave remember remain side.","estimatedTime":"7 weeks","previewFileId":"0ec424b3-1f68-4572-846a-6eaf085e4636","createdByUserId":"a9334f35-1e61-4122-928b-605a5fb1e56a"}'

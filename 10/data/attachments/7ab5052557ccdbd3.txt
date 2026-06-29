@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTI5VDExOjI4OjA0LjM5MTY5MyIsInVzZXJfaWQiOiI4NzFiMGE3YS1lMjAwLTQ4NTgtYmYwOC0wMzVjMTA4Yjk0MTcifQ.sQ7wyWbWuSQfCkVSNsJShn7U94ixrAhkuQFXVq_C3mY' \
+  -H 'content-length: 219' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Part by what pattern guy memory you.","courseId":"50bb43be-2879-4d93-bcfb-1a437edcfb0c","maxScore":99,"minScore":14,"orderIndex":26,"description":"Television involve customer music.","estimatedTime":"9 weeks"}'
