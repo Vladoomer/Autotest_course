@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/21c7aab0-ca5e-4f1a-bbea-ff217910bff5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjM2OjIzLjkzNjYzMSIsInVzZXJfaWQiOiJiNzhkNGUyZS1mODkyLTRlNjEtYjAyMC0wMDExM2I0YTAxMTQifQ.02HzwbTZoO7ix7caeauzLjWR3In5BBdL-ZGGVwXcWoY' \
+  -H 'content-length: 175' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Never power success now life. Meeting billion picture believe could.","maxScore":67,"minScore":30,"description":"Security every price my.","estimatedTime":"1 weeks"}'

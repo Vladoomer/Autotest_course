@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjM2OjI2LjU5MTIyNyIsInVzZXJfaWQiOiJmMzdhODFlNi03ZDQxLTQ1ZjQtOTNiZS1mY2ZmODI4MWYwN2YifQ.kEMShcrX7XlkLvOZYiGr8y3SBnQ2cE2q9z15oCRMrqg' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Beat major hot. Concern wind dream. Strong couple hot owner. Meet leg hot career hotel.","maxScore":83,"minScore":7,"description":"Animal executive market film common whom thus.","estimatedTime":"6 weeks","previewFileId":"aef6a54d-408c-4ec6-bd80-5c3d99315603","createdByUserId":"f37a81e6-7d41-45f4-93be-fcff8281f07f"}'

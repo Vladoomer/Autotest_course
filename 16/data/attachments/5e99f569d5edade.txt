@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjM2OjI0LjIxMDQwMCIsInVzZXJfaWQiOiIyMTE0NDYwNy1jMjFiLTRmNDEtYTAyMC1jZTA0NWE1Y2Y0N2QifQ.Wm6K2CHURFtVXmprxClqGbc98Agad6zItQNClOqR0es' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agree reveal cut authority impact.\nShort stock police detail opportunity total no meeting. Itself win pretty bag method indeed floor. Threat these even play.","maxScore":53,"minScore":2,"description":"Finally including mind.","estimatedTime":"9 weeks","previewFileId":"93ebbf47-db22-40d5-9162-a11bde809a72","createdByUserId":"21144607-c21b-4f41-a020-ce045a5cf47d"}'

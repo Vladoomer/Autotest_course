@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjM2OjI2LjMxODIyMSIsInVzZXJfaWQiOiIyYThjNmEyYS0xOWRjLTQzNzItYWU0OC1hMWM0MTZhMjFkNjUifQ.uzORn2LiMDIK-WFZNWYl7IWC7IEHqQJq4iChRri6SaU' \
+  -H 'content-length: 223' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Defense oil across make.","courseId":"3a7e0a71-9715-4c68-aaeb-9a931f309686","maxScore":61,"minScore":13,"orderIndex":58,"description":"Science cost become test whole agency PM meeting.","estimatedTime":"10 weeks"}'

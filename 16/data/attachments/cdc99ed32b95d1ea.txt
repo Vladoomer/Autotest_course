@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjM2OjI2LjMxODIyMSIsInVzZXJfaWQiOiIyYThjNmEyYS0xOWRjLTQzNzItYWU0OC1hMWM0MTZhMjFkNjUifQ.uzORn2LiMDIK-WFZNWYl7IWC7IEHqQJq4iChRri6SaU' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fine through scene vote bit chair.\nLife reach yes according. Process reason nice so what economic author. Shoulder son medical.","maxScore":65,"minScore":25,"description":"Other couple yes.","estimatedTime":"3 weeks","previewFileId":"51be6ebe-bef6-48d9-b77b-e4aac72688ae","createdByUserId":"2a8c6a2a-19dc-4372-ae48-a1c416a21d65"}'

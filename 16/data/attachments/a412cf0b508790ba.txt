@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjM2OjIzLjkzNjYzMSIsInVzZXJfaWQiOiJiNzhkNGUyZS1mODkyLTRlNjEtYjAyMC0wMDExM2I0YTAxMTQifQ.02HzwbTZoO7ix7caeauzLjWR3In5BBdL-ZGGVwXcWoY' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Full study represent game should nice. Military recently adult magazine enter.\nSuccess both Mr peace. Still moment off moment establish make grow. Tv north memory.","maxScore":72,"minScore":2,"description":"Chair on let nice room your.","estimatedTime":"6 weeks","previewFileId":"3657a517-48b2-4659-8112-0ea413654303","createdByUserId":"b78d4e2e-f892-4e61-b020-00113b4a0114"}'

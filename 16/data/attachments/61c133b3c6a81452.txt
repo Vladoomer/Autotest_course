@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:66 Check create course response
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equals to "Agree reveal cut authority impact.
+Short stock police detail opportunity total no meeting. Itself win pretty bag method indeed floor. Threat these even play."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equals to "Finally including mind."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "max_score" equals to "53"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "min_score" equals to "2"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimated_time" equals to "9 weeks"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "preview_file_id" equals to "93ebbf47-db22-40d5-9162-a11bde809a72"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "created_by_user_id" equals to "21144607-c21b-4f41-a020-ce045a5cf47d"
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validate JSON schema

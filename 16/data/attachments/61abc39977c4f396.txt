@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjM2OjI1LjQwMjE1MyIsInVzZXJfaWQiOiI0Y2M2M2VhYy1lZmQ3LTRkNTUtOTAyYy01NzI2YmQ2YzhhZjIifQ.AkX3dSfqlL-GSeD40y-II1yfG1yFcfpD1OnwZHmAVaY' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Behind stock he experience performance watch. Body join single wife artist. Range rule daughter environmental.\nUpon treatment population sense. Eight decade heavy.","maxScore":51,"minScore":6,"description":"Clearly reflect conference religious.","estimatedTime":"7 weeks","previewFileId":"7a9cfcdb-4ae1-4a3b-b149-1765b2059d0c","createdByUserId":"4cc63eac-efd7-4d55-902c-5726bd6c8af2"}'

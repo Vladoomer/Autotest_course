@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjM2OjI1LjEyOTI3NCIsInVzZXJfaWQiOiI2MDAwZTBkZS0zNzFiLTQ4ZTUtOGM5MS03YzBlN2M5YmUzNjUifQ.HTcuuWkFlec0G6AF8zUrAx0P3viCAyxiCOUe-P98Ylg' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Traditional me star training quite prepare hope. Nearly word down nation. Population water help walk consumer democratic talk. Carry per stop own.","maxScore":99,"minScore":11,"description":"Its each situation away animal will.","estimatedTime":"9 weeks","previewFileId":"b7b3b223-da67-446e-80bb-2012ecc8a1b7","createdByUserId":"6000e0de-371b-48e5-8c91-7c0e7c9be365"}'
