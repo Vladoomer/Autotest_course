@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjI2OjMwLjE2MDQ0NyIsInVzZXJfaWQiOiJkNTFjMzIyYi03ZTdjLTQ0NzUtYjY0NC0wMmQ3MTA2MWJjZDgifQ.M1I1ZGe_hwS92Wk3jJqICjo7WTjwcWHB7spwrjzqHec' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Million board agency for ball according pattern decide. Throw would piece industry window third who.","maxScore":67,"minScore":26,"description":"Yard day part half public spend sport.","estimatedTime":"6 weeks","previewFileId":"c76585ad-a1a0-4050-9568-a69d9960070a","createdByUserId":"d51c322b-7e7c-4475-b644-02d71061bcd8"}'

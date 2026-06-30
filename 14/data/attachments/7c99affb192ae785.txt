@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjI2OjI5Ljg4NjU4MyIsInVzZXJfaWQiOiIxZmRlZjY5NC0zNTE4LTQ1MDUtYTUxZi04ZTcyZTIzZjUxODYifQ.91HPCTjbqiXYVYB3I6HJTlzs9CUwXTyfS8OEEijaA-M' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Large yes strategy hospital draw top. Cup unit thank always former wide push. Hear radio other sister suddenly various. Now entire dog well man concern check.","maxScore":84,"minScore":8,"description":"Financial return as whole smile low.","estimatedTime":"3 weeks","previewFileId":"4b7a0026-64b0-4577-b181-a4a9c301d7fb","createdByUserId":"1fdef694-3518-4505-a51f-8e72e23f5186"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjI2OjMzLjUwMDU4MSIsInVzZXJfaWQiOiIwMTk3Y2JkZC03MjhhLTQzMTUtOTc5OS1hNmE5ZWI1OTY1NzcifQ.gbp_LWUDvegkwZnJlhQLSMUED_NIo--RAu4aCKZkkk0' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Start small why figure capital. Your program age trip safe institution.\nWide moment hear possible. Health order can finish same sit because.","maxScore":100,"minScore":4,"description":"Floor second reality each.","estimatedTime":"1 weeks","previewFileId":"794439a0-feef-4247-9940-a5ec6366646e","createdByUserId":"0197cbdd-728a-4315-9799-a6a9eb596577"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d7337d15-a6ba-4ebe-ba01-5b8555192900' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjI2OjI5Ljg4NjU4MyIsInVzZXJfaWQiOiIxZmRlZjY5NC0zNTE4LTQ1MDUtYTUxZi04ZTcyZTIzZjUxODYifQ.91HPCTjbqiXYVYB3I6HJTlzs9CUwXTyfS8OEEijaA-M' \
+  -H 'content-length: 257' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Support leave return south. Bed ok leave million again character possible. Write and market pay.\nSeveral general trade coach go anything.","maxScore":93,"minScore":9,"description":"Make society between second few only.","estimatedTime":"3 weeks"}'

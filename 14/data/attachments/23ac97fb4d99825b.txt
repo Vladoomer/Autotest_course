@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjI2OjI4LjczMzM4NSIsInVzZXJfaWQiOiIwZTk2YTgzNC0zOGEzLTQ3NGEtOTIyZi1kYTZiNDIxODVjN2YifQ.Vp0YLT_0dxvoUywfPQKkCWWQV3r7Va_qOkBN8JIWac8' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Really listen character success. Between few American nothing head positive young.\nServe ago pass boy product major. Those far break another anyone. Technology its hot bad.","maxScore":92,"minScore":6,"description":"Majority information during rise.","estimatedTime":"7 weeks","previewFileId":"bb9be40c-52ed-4a21-8af1-3d3e78e8cbfe","createdByUserId":"0e96a834-38a3-474a-922f-da6b42185c7f"}'

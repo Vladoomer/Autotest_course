@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjI2OjMyLjI5NzM2MiIsInVzZXJfaWQiOiI0OGIyZGVlZi1jNGI1LTRlZDctYjZiYy1lMWExNWUwMDVjZDQifQ.Tk_HGzALUPJyl6zy0QSVHxemKzia3uIuLSXdN-ksmYY' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eye board power between. News happen two. Year ahead might task.\nRoad article section deep.\nFull growth best science away argue statement. Decide night with must investment.","maxScore":78,"minScore":30,"description":"Summer type health suddenly material.","estimatedTime":"8 weeks","previewFileId":"afeb1da3-8d90-40da-b6d6-1925baab7469","createdByUserId":"48b2deef-c4b5-4ed7-b6bc-e1a15e005cd4"}'
