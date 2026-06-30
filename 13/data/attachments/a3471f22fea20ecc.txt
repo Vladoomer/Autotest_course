@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/36813066-a0e8-41a7-b12d-cb83961ee645' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjIxOjEwLjExODU3OCIsInVzZXJfaWQiOiJkMmY2YmEwNy1iY2UyLTQwMjUtYTAwYy0yZmM5NzJlNzYyZjYifQ.S5N5CYc3LsvHUMzC4wP5EAnNKr3zSO2CjyLkSrIk3BY' \
+  -H 'content-length: 194' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Heart friend suffer country study. Ability certainly month professional must.","maxScore":68,"minScore":24,"description":"Every certain that turn onto game.","estimatedTime":"9 weeks"}'

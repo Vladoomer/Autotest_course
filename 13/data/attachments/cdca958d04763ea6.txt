@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjIxOjA5LjUzNTg1NCIsInVzZXJfaWQiOiI4MGE5OWY0Ny05ZWQ0LTQzNjgtODRmNC05ZGY3ODlhNGM2NTUifQ.Eh5QMDs7QugIU6HKsG1H2yQg7pnu4xxcO2eltVxA_d8' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Player institution significant role ground later necessary. Special early hope five. Message hear participant author up.\nLike many too best. Summer section by point court agent sea.","maxScore":82,"minScore":10,"description":"True staff understand center serve so star.","estimatedTime":"3 weeks","previewFileId":"b9abb944-3576-4372-b58f-e52af48c3798","createdByUserId":"80a99f47-9ed4-4368-84f4-9df789a4c655"}'

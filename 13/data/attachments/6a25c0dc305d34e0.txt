@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjIxOjEzLjE4MTM4MCIsInVzZXJfaWQiOiIzZDQ2NTVkZi1jZjU5LTQyNTgtYmU0My1lYjhkM2ZlZDQyNzYifQ.4WPP-SWOQ9mkpIj4VOZ7N4yRz3VWZ98D7VbfpkW17TQ' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bit state wonder tax early candidate. Lay fund financial direction here.\nThem onto site pay green deal. Worker none draw thousand.","maxScore":61,"minScore":13,"description":"Person issue a pressure include.","estimatedTime":"2 weeks","previewFileId":"f0719cfe-7bcc-441b-96ea-042f27d1ff73","createdByUserId":"3d4655df-cf59-4258-be43-eb8d3fed4276"}'

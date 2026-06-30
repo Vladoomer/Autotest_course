@@ -1,0 +1,21 @@
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:25 Make PATCH request to http://localhost:8000/api/v1/exercises/b2f9d808-e619-4e7b-91e6-67dc1a39a392
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises/b2f9d808-e619-4e7b-91e6-67dc1a39a392
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:78 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equals to "Red itself rate happy."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "orderIndex" equals to "49"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "maxScore" equals to "85"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "minScore" equals to "6"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equals to "Bit tonight garden success."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimatedTime" equals to "9 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validate JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjIxOjEwLjExODU3OCIsInVzZXJfaWQiOiJkMmY2YmEwNy1iY2UyLTQwMjUtYTAwYy0yZmM5NzJlNzYyZjYifQ.S5N5CYc3LsvHUMzC4wP5EAnNKr3zSO2CjyLkSrIk3BY' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Information including morning and act follow trial quality.\nHead leave trade teach. Be reduce scientist magazine.","maxScore":88,"minScore":20,"description":"Long perhaps else high rich quality book.","estimatedTime":"1 weeks","previewFileId":"40f86f86-698b-4d7a-a5a2-a20072891193","createdByUserId":"d2f6ba07-bce2-4025-a00c-2fc972e762f6"}'

@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:25 Make GET request to http://localhost:8000/api/v1/courses?userId=80a99f47-9ed4-4368-84f4-9df789a4c655
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=80a99f47-9ed4-4368-84f4-9df789a4c655
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:base.py:70 Check that length of "courses" equals to "1"
+INFO     COURSES_ASSERTIONS:courses.py:52 Check get courses response
+INFO     COURSES_ASSERTIONS:courses.py:36 Check course
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equals to "Player institution significant role ground later necessary. Special early hope five. Message hear participant author up.
+Like many too best. Summer section by point court agent sea."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "id" equals to "3e9fdc67-5c1b-4ecb-9869-836a09f5dc7b"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "max_score" equals to "82"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "min_score" equals to "10"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimated_time" equals to "3 weeks"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equals to "True staff understand center serve so star."
+INFO     FILE_ASSERTIONS:files.py:37 Check file
+INFO     BASE_ASSERTIONS:base.py:33 Check that "url" equals to "http://localhost:8000/static/courses/bd4cca11-b713-4f56-b4aa-9a1f36b8be3f.png"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "filename" equals to "bd4cca11-b713-4f56-b4aa-9a1f36b8be3f.png"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "directory" equals to "courses"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "id" equals to "b9abb944-3576-4372-b58f-e52af48c3798"
+INFO     USERS_ASSERTIONS:users.py:26 Check user
+INFO     BASE_ASSERTIONS:base.py:33 Check that "id" equals to "80a99f47-9ed4-4368-84f4-9df789a4c655"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "email" equals to "christopher35@example.com"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "last_name" equals to "Smith"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "first_name" equals to "Tracey"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "middle_name" equals to "William"
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validate JSON schema

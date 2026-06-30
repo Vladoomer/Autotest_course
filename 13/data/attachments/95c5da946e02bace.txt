@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjIxOjEwLjc3NDkwNyIsInVzZXJfaWQiOiIwYzVlZjIxZS00Y2U3LTQwNGQtODU4OS1hMWEwYTJjNDFlYWUifQ._Md-c2jSdiXAHpyJo1oCO74kgo9BbkdMUjC5c0WDOpU' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Election source onto rich body fall. Thought ready issue member. Whom often same about player nice best.","maxScore":89,"minScore":23,"description":"Culture sometimes movie structure opportunity develop.","estimatedTime":"3 weeks","previewFileId":"3bb33035-b215-4f55-a141-52178484094f","createdByUserId":"0c5ef21e-4ce7-404d-8589-a1a0a2c41eae"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjIxOjExLjk0ODU3NCIsInVzZXJfaWQiOiI4ZDVlYjI2YS02ZTI2LTRiZjMtOTc1OC03YzRjNDQwZTVkNzAifQ.og4LePhLlLXUd04-kbhC8B49aUvfwdq00SCNka9VoMM' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Girl meeting bed pass yard. Economy president book other realize begin growth cover.","maxScore":76,"minScore":25,"description":"Financial class son.","estimatedTime":"10 weeks","previewFileId":"a4a0dc90-3928-4dfa-a88d-afe8ba0a12e3","createdByUserId":"8d5eb26a-6e26-4bf3-9758-7c4c440e5d70"}'
