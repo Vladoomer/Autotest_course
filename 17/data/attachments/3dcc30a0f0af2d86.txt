@@ -1,0 +1,20 @@
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:66 Check create course response
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equals to "Nature mention knowledge quality left oil difference. While game mention reveal. Leave herself blue mention spring home.
+Too record white a should one.
+Apply off like me business anyone including."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equals to "Again life successful human."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "max_score" equals to "60"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "min_score" equals to "20"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimated_time" equals to "2 weeks"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "preview_file_id" equals to "23940f9f-6409-495f-9d84-1acba50c9009"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "created_by_user_id" equals to "138baeee-acde-4c94-b381-71b1b48c5a0c"
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validate JSON schema

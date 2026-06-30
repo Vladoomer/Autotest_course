@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE2OjAxOjQzLjAwNDk4NSIsInVzZXJfaWQiOiJmNThjZTE2NS02NDZiLTRjMzktODYzNS00YzA1ZWUxZmUxNDgifQ.B3zIEr_CQgcuk2wKvr6-kwyoVMa-kAxzm3Xc2LHNvhc' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Best wear least policy require. Foreign stock item whole need deal land. Our much material seat man stay wish.\nCut force wonder art drop leave him. Send safe certainly consider.","maxScore":58,"minScore":9,"description":"Him sort population professional check wait least.","estimatedTime":"5 weeks","previewFileId":"6f2b9058-b883-470f-9ec9-fb6f07469ea1","createdByUserId":"f58ce165-646b-4c39-8635-4c05ee1fe148"}'

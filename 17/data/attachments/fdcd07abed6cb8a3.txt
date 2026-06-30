@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE2OjAxOjQzLjkzOTE5MiIsInVzZXJfaWQiOiJlMDdhYTA0Yi0xZWZmLTQyYjItOTQ1NC0yNGNlNDFlNTVmMzUifQ.PbpA7aB-gXoCclcVAbaa0Ypr8j2CRaDa985svfvcF3A' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Situation race material defense field. True important whom quite learn kitchen.","maxScore":98,"minScore":24,"description":"Keep quite it rock.","estimatedTime":"7 weeks","previewFileId":"5350dbf1-90d1-4172-948f-ef39c66f8be7","createdByUserId":"e07aa04b-1eff-42b2-9454-24ce41e55f35"}'

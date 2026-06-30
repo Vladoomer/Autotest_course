@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE2OjAxOjM5LjEzNjQ0MiIsInVzZXJfaWQiOiI0ZDIyMDE2YS1kYzZmLTQ3YzQtYmM3YS0wNDBkY2JmZjZiNDEifQ.rOaltK9swcT0639zAwy1B116V0c77IRxp_J0B6nA8bk' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"He sister sense her. Hot which return must responsibility.\nMouth nearly already cultural home. Watch sport candidate up without season. Growth wish bad recent their.","maxScore":70,"minScore":1,"description":"Pm major memory base.","estimatedTime":"2 weeks","previewFileId":"ed5dc2fb-87f0-482d-903d-d9327a6f5190","createdByUserId":"4d22016a-dc6f-47c4-bc7a-040dcbff6b41"}'

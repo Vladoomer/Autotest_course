@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE2OjAxOjQxLjc4OTczMiIsInVzZXJfaWQiOiI5MTk0ZWJhNy1jMjkxLTQ2YjItODM0OC1jYjQyMjlkZTE0MDIifQ.ZNr2GSMyv3saMmkdyHTKXUMKQAzIbAUNklPg-lTm6H4' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mission people cup manage paper animal. Effect stay modern. Than paper career thing three state war.","maxScore":82,"minScore":19,"description":"Hope weight clearly under born.","estimatedTime":"10 weeks","previewFileId":"209a573f-283f-4221-8fa1-a3dc26c2dfb6","createdByUserId":"9194eba7-c291-46b2-8348-cb4229de1402"}'

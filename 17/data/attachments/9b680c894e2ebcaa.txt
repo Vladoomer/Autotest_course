@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE2OjAxOjQxLjUxMzkyMyIsInVzZXJfaWQiOiI2M2UwZjQ3Ni1lZWI4LTQ4MjYtYjcyMC0xZDgyOTIzZGM0MmIifQ.YHeNSnCAhBS8u936C_2fDVkE1U0O8kbKJBDGEYrLkws' \
+  -H 'content-length: 234' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ready phone among will others.","courseId":"d34eb963-b94d-47d5-aad7-bcedd13d71d4","maxScore":59,"minScore":25,"orderIndex":32,"description":"Maybe any order Republican scene strong energy outside.","estimatedTime":"3 weeks"}'

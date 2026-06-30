@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE2OjAxOjQwLjYyNzc2MyIsInVzZXJfaWQiOiIxMzhiYWVlZS1hY2RlLTRjOTQtYjM4MS03MWIxYjQ4YzVhMGMifQ.UQzXKDxpkv9fkZ1ER9JlI3aFi-PVEx3JNS5xRen0wzE' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nature mention knowledge quality left oil difference. While game mention reveal. Leave herself blue mention spring home.\nToo record white a should one.\nApply off like me business anyone including.","maxScore":60,"minScore":20,"description":"Again life successful human.","estimatedTime":"2 weeks","previewFileId":"23940f9f-6409-495f-9d84-1acba50c9009","createdByUserId":"138baeee-acde-4c94-b381-71b1b48c5a0c"}'

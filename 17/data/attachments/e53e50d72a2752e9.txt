@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE2OjAxOjQyLjczMTE5NyIsInVzZXJfaWQiOiJjZDQ2ZGNiNC1kMzI3LTRmZjAtODhkMi00MGEyYTdhYmRkZTEifQ.sc-93SVnQvdcMbEDPy-4gv4cX5BIwn4JQL6T2Gze7HY' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Expert possible follow summer drug local imagine. Present billion performance during speak citizen threat.","maxScore":98,"minScore":11,"description":"Someone message think spend onto note less opportunity.","estimatedTime":"5 weeks","previewFileId":"d72c5cea-b362-4c34-ac96-55cde4265c46","createdByUserId":"cd46dcb4-d327-4ff0-88d2-40a2a7abdde1"}'

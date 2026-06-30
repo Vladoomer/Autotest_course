@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE2OjAxOjQwLjAzNDI0NiIsInVzZXJfaWQiOiIyYTczMWFhZC0zNDdlLTRhNWYtYTYyZS02NzE1NWJiMTMxNWYifQ.NucF7DR-NpOkRg3zm-H-Bu4mIAEgy_qf1mJ-ODSXoko' \
+  -H 'content-length: 450' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Civil technology who scientist significant agreement. Safe identify painting mouth site note. Left exactly evidence maybe professor.\nDifference hair past. Old from understand newspaper medical music.","maxScore":82,"minScore":9,"description":"Determine mother sign TV across hour benefit experience.","estimatedTime":"8 weeks","previewFileId":"6692d2c0-ad70-48fd-afab-008540adc0e4","createdByUserId":"2a731aad-347e-4a5f-a62e-67155bb1315f"}'

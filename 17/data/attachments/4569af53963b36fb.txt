@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE2OjAxOjQxLjUxMzkyMyIsInVzZXJfaWQiOiI2M2UwZjQ3Ni1lZWI4LTQ4MjYtYjcyMC0xZDgyOTIzZGM0MmIifQ.YHeNSnCAhBS8u936C_2fDVkE1U0O8kbKJBDGEYrLkws' \
+  -H 'content-length: 277' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Her carry if clear. They food bank peace company true.","maxScore":65,"minScore":2,"description":"Itself major visit your line.","estimatedTime":"9 weeks","previewFileId":"115b70ef-35e8-451b-bf18-98bd02115843","createdByUserId":"63e0f476-eeb8-4826-b720-1d82923dc42b"}'
