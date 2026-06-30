@@ -2,7 +2,11 @@
 venv
 __pycache__
 
-curlexm.py
+#coverage
+coverage.html
+coverage-history.json
+coverage-report.json
+coverage-results
 
 
 #pycharm

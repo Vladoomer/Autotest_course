@@ -5,13 +5,14 @@ from httpx import Response
 from typing import TypedDict
 from clients.authentication.authentication_scheme import TokenSchema, LoginRequestSchema, LoginResponseSchema, RefreshRequestSchema
 from tools.routes import APIRoutes
-
+from clients.api_coverage import tracker
 
 class AuthenticationClient(APIClient):
     """
     Клиент для работы с /api/v1/authentication
     """
     @allure.step("Authentication user")
+    @tracker.track_coverage_httpx(f"{APIRoutes.AUTHENTICATION}/login")
     def login_api(self, request: LoginRequestSchema) -> Response:
         """
         Метод выполняет аутентификацию пользователя.
@@ -26,6 +27,7 @@ class AuthenticationClient(APIClient):
         return LoginResponseSchema.model_validate_json(response.text)
 
     @allure.step("Refresh authentication token")
+    @tracker.track_coverage_httpx(f"{APIRoutes.AUTHENTICATION}/refresh")
     def refresh_api(self, request: RefreshRequestSchema) -> Response:
         """
         Метод обновляет токен авторизации.
