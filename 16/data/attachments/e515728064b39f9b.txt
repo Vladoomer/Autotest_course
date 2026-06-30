@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjM5OjE1LjEyOTU1NCIsInVzZXJfaWQiOiIxZDdlMzRjOS03YThkLTRiMzAtYmQ4ZC1iN2I3N2E3N2MwNDYifQ.YAlukkpdhriHsIzkLJBtT4P2ci46xGybwj3xrLVuIaM' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"First just people. Feel network receive air fact.\nBy reason reach analysis phone art space. Even themselves impact price.","maxScore":61,"minScore":19,"description":"Discover stay week large white conference reflect add.","estimatedTime":"4 weeks","previewFileId":"34f676af-a8ff-4caa-bb86-d1b126775a07","createdByUserId":"1d7e34c9-7a8d-4b30-bd8d-b7b77a77c046"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjM5OjE4LjE0MjE0MSIsInVzZXJfaWQiOiIzNDUzZTEzZS1mN2YwLTRhMmUtYjFkMS05NTYyNzM2NWQ3OWIifQ.gaJqlcE2MnvdDYA8vK7GRRWsyo6QjlzdEWSJeCqFjT8' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Garden medical senior daughter. Trouble building address important cut.","maxScore":84,"minScore":7,"description":"Voice dream century after fast individual Mrs.","estimatedTime":"2 weeks","previewFileId":"1f2e3427-c080-4b5b-8515-9d761fac9029","createdByUserId":"3453e13e-f7f0-4a2e-b1d1-95627365d79b"}'

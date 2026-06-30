@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a5df7ea4-808e-49b3-b058-4a0024646dcb' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjM5OjE0LjQ4ODcxNSIsInVzZXJfaWQiOiIwYTg4MGYyYy04MDE3LTQzN2YtYjYxYy02ZjZlY2Y2YWI4NTgifQ.liLsMPN0E2Q8DLJdmWie2ExIWZBGNaoZ6FaRgz565Ls' \
+  -H 'content-length: 245' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Call hard onto bit. Account national last responsibility million past federal. Attorney degree mind traditional ready myself president.","maxScore":83,"minScore":1,"description":"Nearly service visit reveal.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:66 Check create course response
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equals to "First just people. Feel network receive air fact.
+By reason reach analysis phone art space. Even themselves impact price."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equals to "Discover stay week large white conference reflect add."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "max_score" equals to "61"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "min_score" equals to "19"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimated_time" equals to "4 weeks"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "preview_file_id" equals to "34f676af-a8ff-4caa-bb86-d1b126775a07"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "created_by_user_id" equals to "1d7e34c9-7a8d-4b30-bd8d-b7b77a77c046"
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validate JSON schema

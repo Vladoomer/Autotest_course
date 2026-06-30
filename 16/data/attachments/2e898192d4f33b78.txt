@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjM5OjE2LjkyNDc2MiIsInVzZXJfaWQiOiI3NjkwNDY5Yi0xZWI5LTRmY2EtOGEzYy1hMjUyOGE0NDA0MDUifQ.PqKOWjAC3-Sl9wV6NGwQwT7Jz8tP4LIsi3z_qk8K7p4' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Three sort sea begin hot soldier. Up short appear city me good national. Simply everyone much remember enter suddenly rate.","maxScore":76,"minScore":14,"description":"Collection argue Mr rock yet medical.","estimatedTime":"7 weeks","previewFileId":"0fdaa6dd-097f-4f19-a6c4-44700a66d0bc","createdByUserId":"7690469b-1eb9-4fca-8a3c-a2528a440405"}'

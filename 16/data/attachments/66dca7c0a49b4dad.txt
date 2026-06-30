@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjM5OjE3LjUwNjU3NiIsInVzZXJfaWQiOiJkMGM0OGFmOC1hZDUwLTRkMTYtOTQ0OS0yNDJkOTY1NmUwNWEifQ._eTC-Y0dTsAF6ve_jCjtaLKUMMGhGPvuJbpLfA7Ecc4' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Somebody born well single international.\nCustomer son even shoulder detail involve final. Plant write reason. Society serious sell sure.","maxScore":63,"minScore":10,"description":"Program beat wonder understand.","estimatedTime":"9 weeks","previewFileId":"df40bd67-9d73-4c0d-b7c0-25f77ec0dfd6","createdByUserId":"d0c48af8-ad50-4d16-9449-242d9656e05a"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjM5OjE0LjQ4ODcxNSIsInVzZXJfaWQiOiIwYTg4MGYyYy04MDE3LTQzN2YtYjYxYy02ZjZlY2Y2YWI4NTgifQ.liLsMPN0E2Q8DLJdmWie2ExIWZBGNaoZ6FaRgz565Ls' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Certainly hospital will.\nCentral study address bed and. Its by citizen rock physical little.","maxScore":52,"minScore":21,"description":"Matter church less family same eight conference.","estimatedTime":"8 weeks","previewFileId":"c0b05326-b36e-4ca1-b8d8-2980edb6711b","createdByUserId":"0a880f2c-8017-437f-b61c-6f6ecf6ab858"}'

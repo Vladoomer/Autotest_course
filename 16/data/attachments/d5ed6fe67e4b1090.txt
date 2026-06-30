@@ -1,0 +1,21 @@
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:25 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:25 Make PATCH request to http://localhost:8000/api/v1/exercises/9bde26a5-d4ed-4e8d-97c8-c09259094d3e
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises/9bde26a5-d4ed-4e8d-97c8-c09259094d3e
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:78 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equals to "Significant hope top term challenge say."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "orderIndex" equals to "9"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "maxScore" equals to "63"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "minScore" equals to "30"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equals to "Not at learn suggest."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimatedTime" equals to "3 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:18 Validate JSON schema
