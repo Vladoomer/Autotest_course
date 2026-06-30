@@ -11,7 +11,7 @@ coverage-results
 
 #pycharm
 .idea
-
+./.idea
 #allure
 /allure-results
 /allure-report
