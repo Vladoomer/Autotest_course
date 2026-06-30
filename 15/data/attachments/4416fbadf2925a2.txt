@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjI5OjU2LjUxNDcyMCIsInVzZXJfaWQiOiJkYzliMWFmZi0wMzE4LTQzMjUtYmRiZi00M2U5ODZiNWQyMmEifQ.dMmBzhhQg4RdFfi-OndMbiyIour92J9YK8wWRQ3rOnw' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Generation blood believe not their. Mind top probably method country energy expert. Minute offer system.\nResource artist yeah growth look. Near fact no human miss such for.","maxScore":87,"minScore":12,"description":"Assume with feel nor outside cause billion notice.","estimatedTime":"1 weeks","previewFileId":"e8074325-5d5c-4179-8d97-47dc836a3af7","createdByUserId":"dc9b1aff-0318-4325-bdbf-43e986b5d22a"}'

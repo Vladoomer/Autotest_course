@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjI5OjU3LjQ0MTc3NiIsInVzZXJfaWQiOiI5OGE0MDI5Mi0xN2U2LTQ4YzgtODYxNi0yODMyNzAyNjY0M2MifQ.-udmg9p8VU97ggJNoIKU8_aVpGMRm22xviFJbGfVgdI' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Chair staff outside floor unit case. Reality blood close.\nHer follow detail theory affect. Evidence reduce over skill. Describe air ever serve material half.","maxScore":70,"minScore":21,"description":"Pass and outside toward case hour practice center.","estimatedTime":"6 weeks","previewFileId":"885124a2-ee36-4e61-a1b4-3171f18154c5","createdByUserId":"98a40292-17e6-48c8-8616-28327026643c"}'

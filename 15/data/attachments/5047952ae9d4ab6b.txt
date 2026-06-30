@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjI5OjU1LjMxODUxNyIsInVzZXJfaWQiOiI3YmM4NWZmYy0xOWFjLTQ1OTYtYjM1MC04MGMyYjMzNmJjYzAifQ.gCDO9ue7U_Tq8tnizXQXGbqcl8945welRcYCyTd7T8Q' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tonight half both public than window scientist. Billion evening receive assume it available design. Do alone side always fight.","maxScore":89,"minScore":30,"description":"Business watch lay box later test idea.","estimatedTime":"3 weeks","previewFileId":"1ec3ff0d-1434-484c-b93e-87a16ac30732","createdByUserId":"7bc85ffc-19ac-4596-b350-80c2b336bcc0"}'

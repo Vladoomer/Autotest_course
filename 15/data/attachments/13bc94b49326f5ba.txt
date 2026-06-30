@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/dd0e814c-bce7-44ab-a1cd-236fe168e49d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjI5OjU2LjUxNDcyMCIsInVzZXJfaWQiOiJkYzliMWFmZi0wMzE4LTQzMjUtYmRiZi00M2U5ODZiNWQyMmEifQ.dMmBzhhQg4RdFfi-OndMbiyIour92J9YK8wWRQ3rOnw' \
+  -H 'content-length: 176' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stop few clearly others seek catch team respond.","maxScore":96,"minScore":24,"orderIndex":56,"description":"International if door person.","estimatedTime":"6 weeks"}'

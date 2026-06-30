@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjI5OjU4LjYzOTEzOCIsInVzZXJfaWQiOiI3Nzk3ZTY4Ny02NjU4LTQ1MmQtYTE0NS0yMDdiNmE1ZWE3ZWUifQ.AO3uUa0Ty1rHhoIzMq9rSPRHFgQctS6UIaZi0go7xBI' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Less others instead somebody. Down now chance write. Whole history glass federal focus guess. Involve direction read.","maxScore":84,"minScore":8,"description":"Produce customer include indicate.","estimatedTime":"10 weeks","previewFileId":"ee6c2984-f690-4eed-bf6b-94f4e7a5e290","createdByUserId":"7797e687-6658-452d-a145-207b6a5ea7ee"}'

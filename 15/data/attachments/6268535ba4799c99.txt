@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjI5OjU1LjA0NTU5OCIsInVzZXJfaWQiOiJlZWM1ZjIyZS03Zjg4LTQ3NjEtYTk1MS1jN2M2ZmZlYzEwZWUifQ.meXzuyqKCoy8N6CEgN5K3dDzzW6EzX6aX2UZeA_DG1I' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Note serious baby yeah figure. Begin effort force five. Data newspaper include couple speak everybody walk.\nChair former decide tough enough. Edge begin ability left anyone change.","maxScore":98,"minScore":20,"description":"Sell get officer loss heavy majority those.","estimatedTime":"2 weeks","previewFileId":"c7b4b532-7ba4-4260-9697-7bf656aa1579","createdByUserId":"eec5f22e-7f88-4761-a951-c7c6ffec10ee"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjI5OjUzLjkwMTczOSIsInVzZXJfaWQiOiJjMjQ4ZmNjOC00M2MwLTQ5NjYtYTBiYy1jMmM3ZTc0ZWQzYjYifQ.MFxuH-htX3Uk7CjhsuGjAg5L7mqdJ2qg4X3zgPNC0d0' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Someone order history with event so summer. Glass result stay our trouble increase. Focus best without quickly family media.","maxScore":73,"minScore":9,"description":"Cultural tend show stage report.","estimatedTime":"9 weeks","previewFileId":"5dfccbf4-3b0b-4ab2-bc39-9975f2aeae93","createdByUserId":"c248fcc8-43c0-4966-a0bc-c2c7e74ed3b6"}'

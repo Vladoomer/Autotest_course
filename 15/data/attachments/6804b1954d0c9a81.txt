@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA2LTMwVDE1OjI5OjU3LjcxNTIwNSIsInVzZXJfaWQiOiI5ODRhZjMyMi04M2JkLTQ5NDktOTU3OS00ODI1N2VlOWQxNGYifQ.3BsqRw4JVAjnF78_lbTAiIUXKusYMk8-UiCSmqhu-iQ' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"News simply evidence able herself Congress. Nature enter economy hour deep shoulder deal they.\nClose cell quality face bad beautiful still. Since responsibility head into it research treatment.","maxScore":50,"minScore":14,"description":"House run late daughter.","estimatedTime":"4 weeks","previewFileId":"9c92edd7-ac21-4954-a5ed-5a81728b7673","createdByUserId":"984af322-83bd-4949-9579-48257ee9d14f"}'
