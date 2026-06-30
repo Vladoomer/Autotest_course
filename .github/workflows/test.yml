@@ -66,6 +66,7 @@ jobs:
           restore-keys: coverage-history-
 
       - name: Generate Coverage report
+        working-directory: autotests
         run: | 
           swagger-coverage-tool save-report
 
